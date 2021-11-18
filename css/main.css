@@ -1,0 +1,469 @@
+@font-face {
+    font-family: Muller-Black;
+    src: url(../fonts/Muller-Black.eot) format("eot"),
+    url(../fonts/Muller-Black.ttf) format("truetype");
+url(../fonts/Muller-Black.woff) format("woff");
+url(../fonts/Muller-Black.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Muller-Regular;
+    src: url(../fonts/Muller-Regular.eot) format("eot"),
+    url(../fonts/Muller-Regular.ttf) format("truetype");
+url(../fonts/Muller-Regular.woff) format("woff");
+url(../fonts/Muller-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Muller-Bold;
+    src: url(../fonts/Muller-Bold.eot) format("eot"),
+    url(../fonts/Muller-Bold.ttf) format("truetype");
+url(../fonts/Muller-Bold.woff) format("woff");
+url(../fonts/Muller-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: Muller-Extra-Bold;
+    src: url(../fonts/Muller-Extra-Bold.eot) format("eot"),
+    url(../fonts/Muller-Extra-Bold.ttf) format("truetype");
+url(../fonts/Muller-Extra-Bold.woff) format("woff");
+url(../fonts/Muller-Extra-Bold.woff2) format("woff2");
+}
+
+body {
+    margin: 0;
+    font-family: Muller-Regular, sans-serif;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.logo {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.logo span {
+    max-width: 80px;
+    font-size: 24px;
+    margin-left: 8px;
+    font-family: Muller-Black, sans-serif;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+#menu {
+    margin: 0 261px 0 248px;
+    width: 491px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a.menu-item {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#main-info {
+    max-width: 622px;
+}
+
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: Muller-Extra-Bold, sans-serif;
+    color: rgb(185, 145, 80);
+    line-height: 1.222;
+    margin: 0;
+}
+
+#main-info h1 span {
+    color: #ffaf18;
+}
+
+#main-advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.advantage .advantage-text {
+    margin-left: 16px;
+}
+
+.advantage-title {
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(255, 175, 24);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.advantage-description {
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+}
+
+#main-action {
+    margin-top: 60px;
+}
+
+#main-action .btn {
+    display: inline-block;
+    width: 224px;
+}
+
+.btn {
+    padding: 22px;
+    background-color: rgb(255, 175, 24);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+
+#products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 161px;
+}
+
+#products-title {
+    text-align: center;
+    font-size: 35px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(189, 152, 92);
+}
+
+#products-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.product {
+    width: 282px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.product .product-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+}
+
+.product .product-text {
+    max-width: 242px;
+    height: 49px;
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+}
+
+.product-image {
+    margin-top: 27px;
+}
+
+.product .product-button.btn {
+    bottom: 0;
+    outline: 0;
+    margin-top: 15px;
+    padding: 17px;
+    width: 100%;
+}
+
+.product .product-image {
+    height: 155px;
+}
+
+#order {
+    display: block;
+    overflow: hidden;
+}
+
+#order-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#order-text {
+    max-width: 384px;
+}
+
+#order-text-title {
+    font-size: 35px;
+    font-family: Muller-Extra-Bold, sans-serif;
+    color: #b99150;
+    line-height: 1.286;
+
+}
+
+
+#order-text-title span {
+    color: rgb(255, 175, 24);
+}
+
+#order-text-subtitle {
+    margin-top: 65px;
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+}
+
+#order-form {
+    max-width: 330px;
+}
+
+#order-form input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: 0;
+    margin-bottom: 30px;
+}
+
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+
+#order-form button.btn {
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+    outline: 0;
+}
+
+#order-image {
+    width: 282px;
+    position: relative;
+}
+
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+#rights {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+.advantages-info-block-image span {
+    font-size: 60px;
+    font-family: Gilroy-Regular, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#advantages-info {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu svg {
+    display: none;
+}
+
+
+#burger {
+    display: none;
+}
+
+#header-menu svg {
+    display: none;
+}
+
+form div{
+    position: relative;
+}
+
+form .error-input {
+    position: absolute;
+    top: 78px;
+    left: 5px;
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+.lds-spinner {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #fc9d00;
+}
+
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(119, 113, 111, 0.16);
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#form-success {
+    color: rgb(185, 145, 80);
+    max-width: 330px;
+    display: none;
+    justify-content: center;
+   align-items: center;
+}
+
+#form-success-text {
+    font-size: 33px;
+}
